@@ -34,7 +34,7 @@ public class Dog extends RescueAnimal {
     @Override
     public String toString() {
         return  "Name: " + getName() + ", " +
-                "Type: " + getAnimalType() + ", " +
+//                "Type: " + getAnimalType() + ", " +
                 "Gender: " + getGender() + ", " +
                 "Age: " + getAge() + ", " +
                 "Weight: " + getWeight() + ", " +

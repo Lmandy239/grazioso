@@ -70,6 +70,20 @@ public class Monkey extends RescueAnimal {
 		this.species = species;
 	}
 	
-	
+	@Override
+	public String toString() {
+	    return  "Name: " + getName() + ", " +
+	            "Species: " + getSpecies() + ", " +
+	            "Animal Type: " + getAnimalType() + ", " +
+	            "Gender: " + getGender() + ", " +
+	            "Age: " + getAge() + ", " +
+	            "Weight: " + getWeight() + ", " +
+	            "Acquisition Date: " + getAcquisitionDate() + ", " +
+	            "Acquisition Location: " + getAcquisitionLocation() + ", " +
+	            "Reserved: " + getReserved() + ", " +
+	            "In-Service Location: " + getInServiceLocation() + ", " +
+	            "Training Status: " + getTrainingStatus();
+	}
+
 	
 }
